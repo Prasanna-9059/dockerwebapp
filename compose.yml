@@ -1,11 +1,11 @@
 version: "3.9"
 services:
   devopsdb:
-    image: morukurthidurga/automation:db
+    image: morukurthidurga/manual:db
     ports:
       - "3306:3306"
   application:
-    image: morukurthidurga/automation:app
+    image: morukurthidurga/manual:app
     ports:
       - "1111:8080"
     depends_on:
