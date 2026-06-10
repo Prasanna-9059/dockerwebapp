@@ -3,7 +3,7 @@ services:
   devopsdb:
     image: morukurthidurga/manual:db
     ports:
-      - "3306:3306"
+      - "3306:3006"
   application:
     image: morukurthidurga/manual:app
     ports:
